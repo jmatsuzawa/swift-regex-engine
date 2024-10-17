@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:regex-engine}",
+            "name": "Debug regex-engine",
+            "program": "${workspaceFolder:regex-engine}/.build/debug/regex-engine",
+            "preLaunchTask": "swift: Build Debug regex-engine"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:regex-engine}",
+            "name": "Release regex-engine",
+            "program": "${workspaceFolder:regex-engine}/.build/release/regex-engine",
+            "preLaunchTask": "swift: Build Release regex-engine"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:regex-engine}",
+            "name": "Debug Regex",
+            "program": "${workspaceFolder:regex-engine}/.build/debug/Regex",
+            "preLaunchTask": "swift: Build Debug Regex"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:regex-engine}",
+            "name": "Release Regex",
+            "program": "${workspaceFolder:regex-engine}/.build/release/Regex",
+            "preLaunchTask": "swift: Build Release Regex"
+        }
+    ]
+}
